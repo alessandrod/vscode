@@ -248,7 +248,7 @@
 					"name": "punctuation.definition.parameters.c"
 				}
 			},
-			"end": "(?<=\\})|(?=#)|(;)",
+			"end": "(?<=\\})|(?=#)|(;\\w*$)",
 			"name": "meta.function.c",
 			"patterns": [
 				{
